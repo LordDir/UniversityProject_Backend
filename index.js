@@ -35,17 +35,17 @@ function Register(){
 
 } // Регаем нового пользователя если всё выше норм, если нет денай
 
-function Register Button was clicked(){
+function registerButtonWasclicked(){
 
 } // Проверка нажатия кнопки смены
 
-    if (Register Button was clicked){// если мы на странице авторизации/тыкнули на смену чётное количество раз
+    if (registerButtonWasclicked){// если мы на странице авторизации/тыкнули на смену чётное количество раз
         GetLogin();
         GetPassword();
         CheckBase(); // Для авторизации готово
     }
 
-    if (Register Button was clicked){// если мы тыкнули на смену 1 раз
+    if (registerButtonWasclicked){// если мы тыкнули на смену 1 раз
         CheckLogin();
         CheckPassword();
         CheckTNumber();
